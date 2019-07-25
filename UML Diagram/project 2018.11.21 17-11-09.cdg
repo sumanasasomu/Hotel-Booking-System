@@ -1,0 +1,1114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="project">
+  <ClassDiagramComponents>
+    <Class name="Cancel" package="project" visibility="public" xPosition="496.0" yPosition="1731.0">
+      <Fields>
+        <Field name="PCancel" type="Panel" visibility="package"/>
+        <Field name="LCancel" type="Label" visibility="package"/>
+        <Field name="LName" type="Label" visibility="package"/>
+        <Field name="LUname" type="Label" visibility="package"/>
+        <Field name="panels" type="JPanel" visibility="package"/>
+        <Field name="Innerpanel1" type="Panel" visibility="package"/>
+        <Field name="IPHname" type="Label" visibility="package"/>
+        <Field name="IPtext1" type="Label" visibility="package"/>
+        <Field name="IPtext2" type="Label" visibility="package"/>
+        <Field name="Innerpanel2" type="Panel" visibility="package"/>
+        <Field name="cancel" type="Button" visibility="package"/>
+        <Field name="LBbutton" type="Button" visibility="package"/>
+        <Field name="lstbookingid" type="LinkedList" visibility="package"/>
+        <Field name="lstfromDates" type="LinkedList&lt;String&gt;" visibility="package"/>
+        <Field name="n" type="int" visibility="package"/>
+        <Field name="gv" type="GlobalVariables" visibility="package"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+        <Method name="windowOpened" returnType="void" visibility="public">
+          <Argument type="WindowEvent" name="we"/>
+        </Method>
+        <Method name="windowClosing" returnType="void" visibility="public">
+          <Argument type="WindowEvent" name="we"/>
+        </Method>
+        <Method name="windowClosed" returnType="void" visibility="public">
+          <Argument type="WindowEvent" name="we"/>
+        </Method>
+        <Method name="windowIconified" returnType="void" visibility="public">
+          <Argument type="WindowEvent" name="we"/>
+        </Method>
+        <Method name="windowDeiconified" returnType="void" visibility="public">
+          <Argument type="WindowEvent" name="we"/>
+        </Method>
+        <Method name="windowActivated" returnType="void" visibility="public">
+          <Argument type="WindowEvent" name="we"/>
+        </Method>
+        <Method name="windowDeactivated" returnType="void" visibility="public">
+          <Argument type="WindowEvent" name="we"/>
+        </Method>
+        <Method name="actionPerformed" returnType="void" visibility="public">
+          <Argument type="ActionEvent" name="ae"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="ConfirmCancellation" package="project" visibility="public" xPosition="1376.0" yPosition="1136.0">
+      <Fields>
+        <Field name="gv" type="GlobalVariables" visibility="package"/>
+        <Field name="flag" type="int" visibility="package"/>
+        <Field name="Lcancelcharges" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="Lerror" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="LpriceCancel" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jButton1" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton2" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel4" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel6" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jPanel2" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jPanel3" type="javax.swing.JPanel" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents void" visibility="private"/>
+        <Method name="jButton2ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton1ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="ConfirmModify" package="project" visibility="public" xPosition="2596.0" yPosition="247.0">
+      <Fields>
+        <Field name="gv" type="GlobalVariables" visibility="package"/>
+        <Field name="Rtype" type="int" visibility="package"/>
+        <Field name="Cnt_Rtype" type="int" visibility="package"/>
+        <Field name="RoomIds" type="int" visibility="package"/>
+        <Field name="no_of_diffRooms" type="int" visibility="package"/>
+        <Field name="hid_modify" type="int" visibility="package"/>
+        <Field name="t" type="int" visibility="package"/>
+        <Field name="Jfrom_M" type="com.toedter.calendar.JDateChooser" visibility="private"/>
+        <Field name="Jto_M" type="com.toedter.calendar.JDateChooser" visibility="private"/>
+        <Field name="Lerror" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jButton1" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton2" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel3" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel4" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jPanel2" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jPanel3" type="javax.swing.JPanel" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents void" visibility="private"/>
+        <Method name="jButton1ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton2ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="ConnectDB" package="project" visibility="public" xPosition="5585.0" yPosition="2884.0">
+      <Fields>
+        <Field name="conObj" type="ConnectDB" visibility="private" isStatic="true"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="private"/>
+      </Constructors>
+      <Methods>
+        <Method name="getInstance" returnType="ConnectDB" visibility="public" isStatic="true"/>
+        <Method name="getConnection" returnType="Connection" visibility="public" isStatic="true"/>
+      </Methods>
+    </Class>
+    <Class name="EndBooking" package="project" visibility="public" xPosition="2596.0" yPosition="2179.0">
+      <Fields>
+        <Field name="gv" type="GlobalVariables" visibility="package"/>
+        <Field name="Lbid" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="Lfromd" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="Lhname" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="Lpeople" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="Lrooms" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="Ltod" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="Ltprice" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jButton1" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton2" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel10" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel12" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel14" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel5" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel7" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel9" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jPanel2" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jPanel4" type="javax.swing.JPanel" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents void" visibility="private"/>
+        <Method name="jButton1ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton2ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="EndBooking_w" package="project" visibility="public" xPosition="327.0" yPosition="899.0">
+      <Fields>
+        <Field name="gv" type="GlobalVariables" visibility="package"/>
+        <Field name="Lbid" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="Lfromd" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="Lhname" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="Lpeople" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="Lrooms" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="Ltod" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="Ltprice" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jButton1" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton2" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel10" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel12" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel14" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel5" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel7" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel9" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jPanel2" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jPanel4" type="javax.swing.JPanel" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents void" visibility="private"/>
+        <Method name="jButton1ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton2ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="extras" package="project" visibility="public" xPosition="2940.0" yPosition="836.0">
+      <Fields>
+        <Field name="gv" type="GlobalVariables" visibility="package"/>
+        <Field name="breakfastCB" type="javax.swing.JCheckBox" visibility="private"/>
+        <Field name="carparkingCB" type="javax.swing.JCheckBox" visibility="private"/>
+        <Field name="carrentalsCB" type="javax.swing.JCheckBox" visibility="private"/>
+        <Field name="gymCB" type="javax.swing.JCheckBox" visibility="private"/>
+        <Field name="jButton1" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton2" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jCheckBox1" type="javax.swing.JCheckBox" visibility="private"/>
+        <Field name="jCheckBox3" type="javax.swing.JCheckBox" visibility="private"/>
+        <Field name="jCheckBox4" type="javax.swing.JCheckBox" visibility="private"/>
+        <Field name="jCheckBox8" type="javax.swing.JCheckBox" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel12" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel3" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel4" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel5" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel6" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jPanel2" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jPanel3" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="wifiCB" type="javax.swing.JCheckBox" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents void" visibility="private"/>
+        <Method name="jButton1ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton2ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="GlobalVariables" package="project" visibility="public" xPosition="2138.0" yPosition="30.0">
+      <Fields>
+        <Field name="gv" type="GlobalVariables" visibility="package" isStatic="true"/>
+        <Field name="userid" type="int" visibility="private"/>
+        <Field name="hotelid" type="int" visibility="private"/>
+        <Field name="hotelid_w" type="int" visibility="private"/>
+        <Field name="username" type="String" visibility="private"/>
+        <Field name="hotelname" type="String" visibility="private"/>
+        <Field name="location" type="String" visibility="private"/>
+        <Field name="persons" type="int" visibility="private"/>
+        <Field name="rooms" type="int" visibility="private"/>
+        <Field name="Wnum" type="int" visibility="private"/>
+        <Field name="pricecancel" type="int" visibility="private"/>
+        <Field name="cancelcharges" type="String" visibility="private"/>
+        <Field name="Days_cancel" type="int" visibility="private"/>
+        <Field name="BidCancel" type="String" visibility="private"/>
+        <Field name="Hotelname_w" type="String" visibility="private"/>
+        <Field name="BidModify" type="String" visibility="private"/>
+        <Field name="name" type="String" visibility="private"/>
+        <Field name="from_date" type="String" visibility="private"/>
+        <Field name="to_date" type="String" visibility="private"/>
+        <Field name="toD_M" type="String" visibility="private"/>
+        <Field name="fromD_M" type="String" visibility="private"/>
+        <Field name="no_of_typesofrooms" type="int" visibility="private"/>
+        <Field name="no_of_typesofrooms_w" type="int" visibility="private"/>
+        <Field name="price_per_night" type="int" visibility="private"/>
+        <Field name="price_per_night_w" type="int" visibility="private"/>
+        <Field name="bookingid" type="int" visibility="private"/>
+        <Field name="No_of_days" type="int" visibility="private"/>
+        <Field name="No_of_days_w" type="int" visibility="private"/>
+        <Field name="persons_w" type="int" visibility="private"/>
+        <Field name="rooms_w" type="int" visibility="private"/>
+        <Field name="fromD_w" type="String" visibility="private"/>
+        <Field name="toD_w" type="String" visibility="private"/>
+        <Field name="wifi" type="int" visibility="package"/>
+        <Field name="breakfast" type="int" visibility="package"/>
+        <Field name="gym" type="int" visibility="package"/>
+        <Field name="car_rentals" type="int" visibility="package"/>
+        <Field name="car_parking" type="int" visibility="package"/>
+        <Field name="wl_clicked" type="int" visibility="private"/>
+        <Field name="hb_clicked" type="int" visibility="private"/>
+        <Field name="i" type="int" visibility="private"/>
+        <Field name="j" type="int" visibility="private"/>
+        <Field name="RnameArray" type="int" visibility="private"/>
+        <Field name="Rchoices" type="int" visibility="private"/>
+        <Field name="i_w" type="int" visibility="private"/>
+        <Field name="j_w" type="int" visibility="private"/>
+        <Field name="RnameArray_w" type="int" visibility="private"/>
+        <Field name="Rchoices_w" type="int" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="private"/>
+      </Constructors>
+      <Methods>
+        <Method name="getPricecancel" returnType="int" visibility="public"/>
+        <Method name="setPricecancel" returnType="void" visibility="public">
+          <Argument type="int" name="pricecancel"/>
+        </Method>
+        <Method name="getCancelcharges" returnType="String" visibility="public"/>
+        <Method name="setCancelcharges" returnType="void" visibility="public">
+          <Argument type="String" name="cancelcharges"/>
+        </Method>
+        <Method name="getDays_cancel" returnType="int" visibility="public"/>
+        <Method name="setDays_cancel" returnType="void" visibility="public">
+          <Argument type="int" name="Days_cancel"/>
+        </Method>
+        <Method name="getBidCancel" returnType="String" visibility="public"/>
+        <Method name="setBidCancel" returnType="void" visibility="public">
+          <Argument type="String" name="BidCancel"/>
+        </Method>
+        <Method name="getName" returnType="String" visibility="public"/>
+        <Method name="setName" returnType="void" visibility="public">
+          <Argument type="String" name="name"/>
+        </Method>
+        <Method name="setI" returnType="void" visibility="public">
+          <Argument type="int" name="i"/>
+        </Method>
+        <Method name="setJ" returnType="void" visibility="public">
+          <Argument type="int" name="j"/>
+        </Method>
+        <Method name="getI" returnType="int" visibility="public"/>
+        <Method name="getJ" returnType="int" visibility="public"/>
+        <Method name="setI_w" returnType="void" visibility="public">
+          <Argument type="int" name="i"/>
+        </Method>
+        <Method name="setJ_w" returnType="void" visibility="public">
+          <Argument type="int" name="j"/>
+        </Method>
+        <Method name="getI_w" returnType="int" visibility="public"/>
+        <Method name="getJ_w" returnType="int" visibility="public"/>
+        <Method name="getRnameArray" returnType="int[]" visibility="public"/>
+        <Method name="getRnameArray" returnType="int" visibility="public">
+          <Argument type="int" name="index"/>
+        </Method>
+        <Method name="setRnameArray" returnType="void" visibility="public">
+          <Argument type="int" name="n"/>
+        </Method>
+        <Method name="getRnameArray_w" returnType="int[]" visibility="public"/>
+        <Method name="getRnameArray_w" returnType="int" visibility="public">
+          <Argument type="int" name="index"/>
+        </Method>
+        <Method name="setRnameArray_w" returnType="void" visibility="public">
+          <Argument type="int" name="n"/>
+        </Method>
+        <Method name="getRchoices" returnType="int[]" visibility="public"/>
+        <Method name="getRchoices" returnType="int" visibility="public">
+          <Argument type="int" name="index"/>
+        </Method>
+        <Method name="setRchoices" returnType="void" visibility="public">
+          <Argument type="int" name="n"/>
+        </Method>
+        <Method name="getRchoices_w" returnType="int[]" visibility="public"/>
+        <Method name="getRchoices_w" returnType="int" visibility="public">
+          <Argument type="int" name="index"/>
+        </Method>
+        <Method name="setRchoices_w" returnType="void" visibility="public">
+          <Argument type="int" name="n"/>
+        </Method>
+        <Method name="getNo_of_typesofrooms" returnType="int" visibility="public"/>
+        <Method name="setNo_of_typesofrooms" returnType="void" visibility="public">
+          <Argument type="int" name="no_of_typesofrooms"/>
+        </Method>
+        <Method name="getNo_of_typesofrooms_w" returnType="int" visibility="public"/>
+        <Method name="setNo_of_typesofrooms_w" returnType="void" visibility="public">
+          <Argument type="int" name="no_of_typesofrooms_w"/>
+        </Method>
+        <Method name="getUsername" returnType="String" visibility="public"/>
+        <Method name="setUsername" returnType="void" visibility="public">
+          <Argument type="String" name="username"/>
+        </Method>
+        <Method name="getUserid" returnType="int" visibility="public"/>
+        <Method name="setUserid" returnType="void" visibility="public">
+          <Argument type="int" name="userid"/>
+        </Method>
+        <Method name="getHotelid" returnType="int" visibility="public"/>
+        <Method name="setHotelid" returnType="void" visibility="public">
+          <Argument type="int" name="hotelid"/>
+        </Method>
+        <Method name="getHotelid_w" returnType="int" visibility="public"/>
+        <Method name="setHotelid_w" returnType="void" visibility="public">
+          <Argument type="int" name="hotelid"/>
+        </Method>
+        <Method name="getLocation" returnType="String" visibility="public"/>
+        <Method name="setLocation" returnType="void" visibility="public">
+          <Argument type="String" name="location"/>
+        </Method>
+        <Method name="getPersons" returnType="int" visibility="public"/>
+        <Method name="setPersons" returnType="void" visibility="public">
+          <Argument type="String" name="Spersons"/>
+        </Method>
+        <Method name="getRooms" returnType="int" visibility="public"/>
+        <Method name="setRooms" returnType="void" visibility="public">
+          <Argument type="String" name="Srooms"/>
+        </Method>
+        <Method name="getFrom_date" returnType="String" visibility="public"/>
+        <Method name="setFrom_date" returnType="void" visibility="public">
+          <Argument type="Date" name="DfromD"/>
+        </Method>
+        <Method name="getTo_date" returnType="String" visibility="public"/>
+        <Method name="setTo_date" returnType="void" visibility="public">
+          <Argument type="Date" name="DtoD"/>
+        </Method>
+        <Method name="getToD_M" returnType="String" visibility="public"/>
+        <Method name="setToD_M" returnType="void" visibility="public">
+          <Argument type="Date" name="toD_M"/>
+        </Method>
+        <Method name="getFromD_M" returnType="String" visibility="public"/>
+        <Method name="setFromD_M" returnType="void" visibility="public">
+          <Argument type="Date" name="fromD_M"/>
+        </Method>
+        <Method name="getTotalPrice" returnType="int" visibility="public"/>
+        <Method name="getTotalPrice_w" returnType="int" visibility="public"/>
+        <Method name="getHotelname" returnType="String" visibility="public"/>
+        <Method name="setHotelname" returnType="void" visibility="public">
+          <Argument type="String" name="hotelname"/>
+        </Method>
+        <Method name="getPrice_per_night" returnType="int" visibility="public"/>
+        <Method name="getPrice_per_night_w" returnType="int" visibility="public"/>
+        <Method name="setPrice_per_night" returnType="void" visibility="public">
+          <Argument type="int" name="price_per_night"/>
+        </Method>
+        <Method name="setPrice_per_night_w" returnType="void" visibility="public">
+          <Argument type="int" name="price_per_night"/>
+        </Method>
+        <Method name="getBookingid" returnType="int" visibility="public"/>
+        <Method name="setBookingid" returnType="void" visibility="public">
+          <Argument type="int" name="bookingid"/>
+        </Method>
+        <Method name="getWifi" returnType="int" visibility="public"/>
+        <Method name="setWifi" returnType="void" visibility="public">
+          <Argument type="int" name="wifi"/>
+        </Method>
+        <Method name="getBreakfast" returnType="int" visibility="public"/>
+        <Method name="setBreakfast" returnType="void" visibility="public">
+          <Argument type="int" name="breakfast"/>
+        </Method>
+        <Method name="getGym" returnType="int" visibility="public"/>
+        <Method name="setGym" returnType="void" visibility="public">
+          <Argument type="int" name="gym"/>
+        </Method>
+        <Method name="getCar_rentals" returnType="int" visibility="public"/>
+        <Method name="setCar_rentals" returnType="void" visibility="public">
+          <Argument type="int" name="car_rentals"/>
+        </Method>
+        <Method name="getCar_parking" returnType="int" visibility="public"/>
+        <Method name="setCar_parking" returnType="void" visibility="public">
+          <Argument type="int" name="car_parking"/>
+        </Method>
+        <Method name="getBidModify" returnType="String" visibility="public"/>
+        <Method name="setBidModify" returnType="void" visibility="public">
+          <Argument type="String" name="BidModify"/>
+        </Method>
+        <Method name="getWl_clicked" returnType="int" visibility="public"/>
+        <Method name="setWl_clicked" returnType="void" visibility="public">
+          <Argument type="int" name="wl_clicked"/>
+        </Method>
+        <Method name="getHb_clicked" returnType="int" visibility="public"/>
+        <Method name="setHb_clicked" returnType="void" visibility="public">
+          <Argument type="int" name="hb_clicked"/>
+        </Method>
+        <Method name="getWnum" returnType="int" visibility="public"/>
+        <Method name="setWnum" returnType="void" visibility="public">
+          <Argument type="int" name="Wnum"/>
+        </Method>
+        <Method name="getHotelname_w" returnType="String" visibility="public"/>
+        <Method name="setHotelname_w" returnType="void" visibility="public">
+          <Argument type="String" name="Hotelname_w"/>
+        </Method>
+        <Method name="getPersons_w" returnType="int" visibility="public"/>
+        <Method name="setPersons_w" returnType="void" visibility="public">
+          <Argument type="int" name="persons_w"/>
+        </Method>
+        <Method name="getRooms_w" returnType="int" visibility="public"/>
+        <Method name="setRooms_w" returnType="void" visibility="public">
+          <Argument type="int" name="rooms_w"/>
+        </Method>
+        <Method name="getFromD_w" returnType="String" visibility="public"/>
+        <Method name="getToD_w" returnType="String" visibility="public"/>
+        <Method name="setFromD_w" returnType="void" visibility="public">
+          <Argument type="String" name="fromD_w"/>
+        </Method>
+        <Method name="setToD_w" returnType="void" visibility="public">
+          <Argument type="String" name="toD_w"/>
+        </Method>
+        <Method name="getNo_of_days" returnType="int" visibility="public"/>
+        <Method name="getNo_of_days_w" returnType="int" visibility="public"/>
+        <Method name="getinstance" returnType="GlobalVariables" visibility="public" isStatic="true"/>
+      </Methods>
+    </Class>
+    <Class name="HotelsForm" package="project" visibility="public" xPosition="2596.0" yPosition="1116.0">
+      <Fields>
+        <Field name="panels" type="Panel" visibility="package"/>
+        <Field name="Plocation" type="Panel" visibility="package"/>
+        <Field name="Llocation" type="Label" visibility="package"/>
+        <Field name="Hnamelabels" type="Label" visibility="package"/>
+        <Field name="Haddresslabels" type="Label" visibility="package"/>
+        <Field name="Hratinglabels" type="Label" visibility="package"/>
+        <Field name="Hno_ratingslabels" type="Label" visibility="package"/>
+        <Field name="b" type="Button" visibility="package"/>
+        <Field name="LBbutton" type="Button" visibility="package"/>
+        <Field name="BackBpanel" type="Panel" visibility="package"/>
+        <Field name="n" type="int" visibility="package"/>
+        <Field name="gv" type="GlobalVariables" visibility="package"/>
+        <Field name="lstHNames" type="LinkedList&lt;String&gt;" visibility="package"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="windowActivated" returnType="void" visibility="public">
+          <Argument type="WindowEvent" name="arg0"/>
+        </Method>
+        <Method name="windowClosed" returnType="void" visibility="public">
+          <Argument type="WindowEvent" name="arg0"/>
+        </Method>
+        <Method name="windowClosing" returnType="void" visibility="public">
+          <Argument type="WindowEvent" name="arg0"/>
+        </Method>
+        <Method name="windowDeactivated" returnType="void" visibility="public">
+          <Argument type="WindowEvent" name="arg0"/>
+        </Method>
+        <Method name="windowDeiconified" returnType="void" visibility="public">
+          <Argument type="WindowEvent" name="arg0"/>
+        </Method>
+        <Method name="windowIconified" returnType="void" visibility="public">
+          <Argument type="WindowEvent" name="arg0"/>
+        </Method>
+        <Method name="windowOpened" returnType="void" visibility="public">
+          <Argument type="WindowEvent" name="arg0"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+        <Method name="actionPerformed" returnType="void" visibility="public">
+          <Argument type="ActionEvent" name="ae"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="ID_proof" package="project" visibility="public" xPosition="5223.0" yPosition="836.0">
+      <Fields>
+        <Field name="Lerror" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="Lprice" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="Taadhar" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="Tpan" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="jButton1" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton2" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel3" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel4" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel5" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel8" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jPanel2" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jPanel3" type="javax.swing.JPanel" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents void" visibility="private"/>
+        <Method name="jButton1ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton2ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="ID_proof_w" package="project" visibility="public" xPosition="3445.0" yPosition="1987.0">
+      <Fields>
+        <Field name="gv" type="GlobalVariables" visibility="package"/>
+        <Field name="Lerror" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="Lprice" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="Taadhar" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="Tpan" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="jButton1" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton2" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel3" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel4" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel5" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel8" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jPanel2" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jPanel3" type="javax.swing.JPanel" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents void" visibility="private"/>
+        <Method name="jButton1ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton2ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="LoginForm" package="project" visibility="public" xPosition="5238.0" yPosition="1430.0">
+      <Fields>
+        <Field name="Bsignin" type="javax.swing.JButton" visibility="private"/>
+        <Field name="Bsignup" type="javax.swing.JButton" visibility="private"/>
+        <Field name="Label1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="Label2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="Lpassword" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="Lusername" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="Tpassword" type="javax.swing.JPasswordField" visibility="private"/>
+        <Field name="Tusername" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="panel1" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="panel2" type="javax.swing.JPanel" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents void" visibility="private"/>
+        <Method name="TusernameActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="BsignupActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="BsigninActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="TusernameKeyReleased" returnType="void" visibility="private">
+          <Argument type="java.awt.event.KeyEvent" name="evt"/>
+        </Method>
+        <Method name="TpasswordActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="TpasswordKeyReleased" returnType="void" visibility="private">
+          <Argument type="java.awt.event.KeyEvent" name="evt"/>
+        </Method>
+        <Method name="jLabel1KeyReleased" returnType="void" visibility="private">
+          <Argument type="java.awt.event.KeyEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Mainform" package="project" visibility="public" xPosition="5212.0" yPosition="152.0">
+      <Fields>
+        <Field name="JfromD" type="com.toedter.calendar.JDateChooser" visibility="private"/>
+        <Field name="Jlocation" type="javax.swing.JComboBox&lt;String&gt;" visibility="private"/>
+        <Field name="Jpersons" type="javax.swing.JSpinner" visibility="private"/>
+        <Field name="Jrooms" type="javax.swing.JSpinner" visibility="private"/>
+        <Field name="JtoD" type="com.toedter.calendar.JDateChooser" visibility="private"/>
+        <Field name="Ldispalyname1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="Lerror" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jButton1" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton2" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jComboBox1" type="javax.swing.JComboBox&lt;String&gt;" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel3" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel4" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel5" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel6" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jPanel2" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jPanel3" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jPanel4" type="javax.swing.JPanel" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents void" visibility="private"/>
+        <Method name="jComboBox1ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton1ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="JlocationActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton2ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Modify" package="project" visibility="public" xPosition="3044.0" yPosition="1532.0">
+      <Fields>
+        <Field name="PModify" type="Panel" visibility="package"/>
+        <Field name="LModify" type="Label" visibility="package"/>
+        <Field name="LName" type="Label" visibility="package"/>
+        <Field name="LUname" type="Label" visibility="package"/>
+        <Field name="panels" type="JPanel" visibility="package"/>
+        <Field name="Innerpanel1" type="Panel" visibility="package"/>
+        <Field name="IPHname" type="Label" visibility="package"/>
+        <Field name="IPtext1" type="Label" visibility="package"/>
+        <Field name="IPtext2" type="Label" visibility="package"/>
+        <Field name="Innerpanel2" type="Panel" visibility="package"/>
+        <Field name="modify" type="Button[]" visibility="package"/>
+        <Field name="LBbutton" type="Button" visibility="package"/>
+        <Field name="lstbookingid" type="LinkedList" visibility="package"/>
+        <Field name="lstfromDates" type="LinkedList&lt;String&gt;" visibility="package"/>
+        <Field name="n" type="int" visibility="package"/>
+        <Field name="gv" type="GlobalVariables" visibility="package"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+        <Method name="windowOpened" returnType="void" visibility="public">
+          <Argument type="WindowEvent" name="we"/>
+        </Method>
+        <Method name="windowClosing" returnType="void" visibility="public">
+          <Argument type="WindowEvent" name="we"/>
+        </Method>
+        <Method name="windowClosed" returnType="void" visibility="public">
+          <Argument type="WindowEvent" name="we"/>
+        </Method>
+        <Method name="windowIconified" returnType="void" visibility="public">
+          <Argument type="WindowEvent" name="we"/>
+        </Method>
+        <Method name="windowDeiconified" returnType="void" visibility="public">
+          <Argument type="WindowEvent" name="we"/>
+        </Method>
+        <Method name="windowActivated" returnType="void" visibility="public">
+          <Argument type="WindowEvent" name="we"/>
+        </Method>
+        <Method name="windowDeactivated" returnType="void" visibility="public">
+          <Argument type="WindowEvent" name="we"/>
+        </Method>
+        <Method name="actionPerformed" returnType="void" visibility="public">
+          <Argument type="ActionEvent" name="ae"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Project" package="project" visibility="public" xPosition="5285.0" yPosition="2884.0">
+      <Fields/>
+      <Constructors>
+        <Constructor visibility="package"/>
+      </Constructors>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="RoomsForm" package="project" visibility="public" xPosition="1344.0" yPosition="1636.0">
+      <Fields>
+        <Field name="panels" type="Panel" visibility="package"/>
+        <Field name="PHotelname" type="Panel" visibility="package"/>
+        <Field name="LHotelname" type="Label" visibility="package"/>
+        <Field name="LRname" type="Label" visibility="package"/>
+        <Field name="LAvailability" type="Label" visibility="package"/>
+        <Field name="Innerpanels" type="Panel" visibility="package"/>
+        <Field name="Innerlabels" type="Label" visibility="package"/>
+        <Field name="innerTextFields" type="TextField[]" visibility="package"/>
+        <Field name="PButton" type="Panel" visibility="package"/>
+        <Field name="LButton1" type="Button" visibility="package"/>
+        <Field name="Lbutton2" type="Button" visibility="package"/>
+        <Field name="LButton3" type="Button" visibility="package"/>
+        <Field name="Lerror" type="Label" visibility="package"/>
+        <Field name="n" type="int" visibility="package"/>
+        <Field name="No_of_Textfields" type="int" visibility="package"/>
+        <Field name="gv" type="GlobalVariables" visibility="package"/>
+        <Field name="lstCapacityColumn" type="LinkedList" visibility="package"/>
+        <Field name="lstCapacity" type="LinkedList" visibility="package"/>
+        <Field name="lstCapFreq" type="LinkedList" visibility="package"/>
+        <Field name="lstBase" type="LinkedList" visibility="package"/>
+        <Field name="lstPerPerson" type="LinkedList" visibility="package"/>
+        <Field name="lstPrices" type="LinkedList" visibility="package"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="giveRoomName" returnType="String" visibility="public">
+          <Argument type="int" name="c"/>
+        </Method>
+        <Method name="windowActivated" returnType="void" visibility="public">
+          <Argument type="WindowEvent" name="arg0"/>
+        </Method>
+        <Method name="windowClosed" returnType="void" visibility="public">
+          <Argument type="WindowEvent" name="arg0"/>
+        </Method>
+        <Method name="windowClosing" returnType="void" visibility="public">
+          <Argument type="WindowEvent" name="arg0"/>
+        </Method>
+        <Method name="windowDeactivated" returnType="void" visibility="public">
+          <Argument type="WindowEvent" name="arg0"/>
+        </Method>
+        <Method name="windowDeiconified" returnType="void" visibility="public">
+          <Argument type="WindowEvent" name="arg0"/>
+        </Method>
+        <Method name="windowIconified" returnType="void" visibility="public">
+          <Argument type="WindowEvent" name="arg0"/>
+        </Method>
+        <Method name="windowOpened" returnType="void" visibility="public">
+          <Argument type="WindowEvent" name="arg0"/>
+        </Method>
+        <Method name="actionPerformed" returnType="void" visibility="public">
+          <Argument type="ActionEvent" name="ae"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="RoomsForm_w" package="project" visibility="public" xPosition="1028.0" yPosition="1221.0">
+      <Fields>
+        <Field name="panels" type="Panel" visibility="package"/>
+        <Field name="PHotelname" type="Panel" visibility="package"/>
+        <Field name="LHotelname" type="Label" visibility="package"/>
+        <Field name="LRname" type="Label" visibility="package"/>
+        <Field name="LAvailability" type="Label" visibility="package"/>
+        <Field name="Innerpanels" type="Panel" visibility="package"/>
+        <Field name="Innerlabels" type="Label" visibility="package"/>
+        <Field name="innerTextFields" type="TextField[]" visibility="package"/>
+        <Field name="PButton" type="Panel" visibility="package"/>
+        <Field name="Lbutton2" type="Button" visibility="package"/>
+        <Field name="LButton_decline" type="Button" visibility="package"/>
+        <Field name="Lerror" type="Label" visibility="package"/>
+        <Field name="LButton3" type="Button" visibility="package"/>
+        <Field name="n" type="int" visibility="package"/>
+        <Field name="No_of_Textfields" type="int" visibility="package"/>
+        <Field name="gv" type="GlobalVariables" visibility="package"/>
+        <Field name="lstCapacityColumn" type="LinkedList" visibility="package"/>
+        <Field name="lstCapacity" type="LinkedList" visibility="package"/>
+        <Field name="lstCapFreq" type="LinkedList" visibility="package"/>
+        <Field name="lstBase" type="LinkedList" visibility="package"/>
+        <Field name="lstPerPerson" type="LinkedList" visibility="package"/>
+        <Field name="lstPrices" type="LinkedList" visibility="package"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="giveRoomName" returnType="String" visibility="public">
+          <Argument type="int" name="c"/>
+        </Method>
+        <Method name="windowActivated" returnType="void" visibility="public">
+          <Argument type="WindowEvent" name="arg0"/>
+        </Method>
+        <Method name="windowClosed" returnType="void" visibility="public">
+          <Argument type="WindowEvent" name="arg0"/>
+        </Method>
+        <Method name="windowClosing" returnType="void" visibility="public">
+          <Argument type="WindowEvent" name="arg0"/>
+        </Method>
+        <Method name="windowDeactivated" returnType="void" visibility="public">
+          <Argument type="WindowEvent" name="arg0"/>
+        </Method>
+        <Method name="windowDeiconified" returnType="void" visibility="public">
+          <Argument type="WindowEvent" name="arg0"/>
+        </Method>
+        <Method name="windowIconified" returnType="void" visibility="public">
+          <Argument type="WindowEvent" name="arg0"/>
+        </Method>
+        <Method name="windowOpened" returnType="void" visibility="public">
+          <Argument type="WindowEvent" name="arg0"/>
+        </Method>
+        <Method name="actionPerformed" returnType="void" visibility="public">
+          <Argument type="ActionEvent" name="ae"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="SignUpForm" package="project" visibility="public" xPosition="5238.0" yPosition="2046.0">
+      <Fields>
+        <Field name="Bsignup" type="javax.swing.JButton" visibility="private"/>
+        <Field name="Laddress" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="Lcpassword" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="Ldob" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="Lmail" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="Lname" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="Lpassword" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="Lphone" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="Lusername" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="Panel" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="Taddress" type="javax.swing.JTextArea" visibility="private"/>
+        <Field name="Tcpassword" type="javax.swing.JPasswordField" visibility="private"/>
+        <Field name="Tdob" type="com.toedter.calendar.JDateChooser" visibility="private"/>
+        <Field name="Tmail" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="Tname" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="Tpassword" type="javax.swing.JPasswordField" visibility="private"/>
+        <Field name="Tphone" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="Tusername" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="dateChooserDialog1" type="datechooser.beans.DateChooserDialog" visibility="private"/>
+        <Field name="jButton1" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jScrollPane2" type="javax.swing.JScrollPane" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents void" visibility="private"/>
+        <Method name="TusernameActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="TpasswordActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="BsignupActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="TcpasswordActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="TpasswordKeyReleased" returnType="void" visibility="private">
+          <Argument type="java.awt.event.KeyEvent" name="evt"/>
+        </Method>
+        <Method name="TmailActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="TmailKeyReleased" returnType="void" visibility="private">
+          <Argument type="java.awt.event.KeyEvent" name="evt"/>
+        </Method>
+        <Method name="TphoneActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton1ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="WaitListForm" package="project" visibility="public" xPosition="999.0" yPosition="2046.0">
+      <Fields>
+        <Field name="Pwlist" type="Panel" visibility="package"/>
+        <Field name="Lwlist" type="Label" visibility="package"/>
+        <Field name="LName" type="Label" visibility="package"/>
+        <Field name="LUname" type="Label" visibility="package"/>
+        <Field name="panels" type="JPanel" visibility="package"/>
+        <Field name="Innerpanel1" type="Panel" visibility="package"/>
+        <Field name="IPHname" type="Label" visibility="package"/>
+        <Field name="IPtext1" type="Label" visibility="package"/>
+        <Field name="IPtext2" type="Label" visibility="package"/>
+        <Field name="Innerpanel2" type="Panel" visibility="package"/>
+        <Field name="proceed" type="Button[]" visibility="package"/>
+        <Field name="LBButton" type="Button" visibility="package"/>
+        <Field name="lstWnumbers" type="LinkedList" visibility="package"/>
+        <Field name="lstfromDates_w" type="LinkedList&lt;String&gt;" visibility="package"/>
+        <Field name="lstHnames_w" type="LinkedList&lt;String&gt;" visibility="package"/>
+        <Field name="lsttoDates_w" type="LinkedList&lt;String&gt;" visibility="package"/>
+        <Field name="lstpersons_w" type="LinkedList" visibility="package"/>
+        <Field name="lstrooms_w" type="LinkedList" visibility="package"/>
+        <Field name="n" type="int" visibility="package"/>
+        <Field name="gv" type="GlobalVariables" visibility="package"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+        <Method name="windowOpened" returnType="void" visibility="public">
+          <Argument type="WindowEvent" name="we"/>
+        </Method>
+        <Method name="windowClosing" returnType="void" visibility="public">
+          <Argument type="WindowEvent" name="we"/>
+        </Method>
+        <Method name="windowClosed" returnType="void" visibility="public">
+          <Argument type="WindowEvent" name="we"/>
+        </Method>
+        <Method name="windowIconified" returnType="void" visibility="public">
+          <Argument type="WindowEvent" name="we"/>
+        </Method>
+        <Method name="windowDeiconified" returnType="void" visibility="public">
+          <Argument type="WindowEvent" name="we"/>
+        </Method>
+        <Method name="windowActivated" returnType="void" visibility="public">
+          <Argument type="WindowEvent" name="we"/>
+        </Method>
+        <Method name="windowDeactivated" returnType="void" visibility="public">
+          <Argument type="WindowEvent" name="we"/>
+        </Method>
+        <Method name="actionPerformed" returnType="void" visibility="public">
+          <Argument type="ActionEvent" name="ae"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Welcome" package="project" visibility="public" xPosition="552.0" yPosition="467.0">
+      <Fields>
+        <Field name="gv" type="GlobalVariables" visibility="package"/>
+        <Field name="ButtonLogin" type="javax.swing.JButton" visibility="private"/>
+        <Field name="ButtonLogin1" type="javax.swing.JButton" visibility="private"/>
+        <Field name="ButtonLogin2" type="javax.swing.JButton" visibility="private"/>
+        <Field name="ButtonLogin3" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jPanel2" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jPanel3" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="panel" type="javax.swing.JPanel" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents void" visibility="private"/>
+        <Method name="ButtonLoginActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="ButtonLogin1ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="ButtonLogin2ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="ButtonLogin3ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="WLnumDisplay" package="project" visibility="public" xPosition="1317.0" yPosition="44.0">
+      <Fields>
+        <Field name="gv" type="GlobalVariables" visibility="package"/>
+        <Field name="Lbid" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="Lfromd" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="Lhname" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="Lpeople" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="Lrooms" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="Ltod" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jButton1" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton2" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel10" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel12" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel5" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel7" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel9" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jPanel2" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jPanel4" type="javax.swing.JPanel" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents void" visibility="private"/>
+        <Method name="jButton1ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton2ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <HasRelation name="gv" source="project.EndBooking" target="project.GlobalVariables" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="project.ConnectDB" target="project.ConnectDB" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="conObj" source="project.ConnectDB" target="project.ConnectDB" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="gv" source="project.RoomsForm_w" target="project.GlobalVariables" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="gv" source="project.Cancel" target="project.GlobalVariables" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="gv" source="project.ID_proof_w" target="project.GlobalVariables" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="gv" source="project.RoomsForm" target="project.GlobalVariables" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="gv" source="project.GlobalVariables" target="project.GlobalVariables" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="gv" source="project.Welcome" target="project.GlobalVariables" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="gv" source="project.ConfirmModify" target="project.GlobalVariables" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="gv" source="project.ConfirmCancellation" target="project.GlobalVariables" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="gv" source="project.EndBooking_w" target="project.GlobalVariables" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="gv" source="project.extras" target="project.GlobalVariables" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="gv" source="project.Modify" target="project.GlobalVariables" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="gv" source="project.WLnumDisplay" target="project.GlobalVariables" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="gv" source="project.WaitListForm" target="project.GlobalVariables" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="project.GlobalVariables" target="project.GlobalVariables" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="gv" source="project.HotelsForm" target="project.GlobalVariables" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+  </ClassDiagramRelations>
+</ClassDiagram>
